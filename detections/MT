@@ -1,0 +1,6 @@
+local MT = getrawmetatable(game)
+local OldIndex = MT. __index
+local OldNamecall = MT.__namecall
+
+setreadonly(MT, false)
+MT.__index = newcclosure(function(H, HP, T, D)
