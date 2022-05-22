@@ -1,4 +1,4 @@
--- Team check
+-- Team check disabler
 
 local AimingIgnored = Aiming.Ignored
 AimingIgnored.TeamCheck(false)
