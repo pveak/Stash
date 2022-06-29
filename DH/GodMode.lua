@@ -16,7 +16,7 @@ local localPlayer = game:GetService('Players').LocalPlayer;
                 game.Players.LocalPlayer.Character:WaitForChild("BodyEffects")
                 game.Players.LocalPlayer.Character.BodyEffects.BreakingParts:Destroy()
 ------------------------------
--- God mode to melee
+-- GOD MODE TO MELEE
 local localPlayer = game:GetService('Players').LocalPlayer;
 				local localCharacter = localPlayer.Character;
 				localCharacter:FindFirstChildOfClass('Humanoid').Health = 0;
